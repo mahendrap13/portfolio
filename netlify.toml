@@ -1,6 +1,7 @@
 [build]
   command = "npm run build"
-  publish = "public"
+  publish = "build"  # Adjust this based on your actual build folder
+  functions = "netlify/functions"  # Adjust the function folder path as needed
 
 [context.production.environment]
   NODE_ENV = "production"
